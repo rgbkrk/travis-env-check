@@ -1,0 +1,12 @@
+language: go
+
+go:
+  - 1.5
+
+before_install: echo "before install"
+
+install:
+  - env
+
+script:
+  - echo "after install"
