@@ -4,10 +4,10 @@ sudo: false
 go:
   - 1.5
 
-before_install: echo "before install"
+before_install: echo "before install!"
 
 install:
   - env
 
 script:
-  - echo "after install"
+  - echo "after install!"
