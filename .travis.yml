@@ -2,7 +2,12 @@ language: go
 sudo: false
 
 go:
+  - 1.1
+  - 1.2
+  - 1.3
+  - 1.4
   - 1.5
+  - tip
 
 before_install: echo "before install!"
 
@@ -10,4 +15,4 @@ install:
   - env
 
 script:
-  - echo "after install!"
+  - go version
